@@ -1,3 +1,29 @@
 .btnInit{
     background: red;
 }
+
+
+
+.claseA{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: aqua;
+}
+
+.claseB{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: chartreuse;
+}
+
+.claseC{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: tomato;
+}
