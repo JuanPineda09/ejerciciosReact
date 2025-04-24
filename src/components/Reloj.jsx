@@ -10,11 +10,11 @@ const Reloj = ()=>{
         const intervalId = setInterval(() => {
             setTiempo(new Date());
         }, 1000); 
-        return clearInterval(intervalId);
+        return () => clearInterval(intervalId);
     },[])
 
     const segundos = {transform: `rotate(${tiempo.getSeconds() *6}deg)` } 
-    const minutos = {transform: `rotate(${tiempo.getMinute() *6}deg)` } 
+    const minutos = {transform: `rotate(${tiempo.getMinutes() *6}deg)` } 
     const horas = {transform: `rotate(${tiempo.getHours() *30}deg)` } 
     
     return(

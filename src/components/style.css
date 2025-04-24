@@ -41,21 +41,99 @@
 
 .Secundero{
     position: absolute;
-    width: 100%;
-    height: 2px;
+    width: 2px;
+    height: 50%;
+    top: 0%;
+    left: 50%;
     background:red;
+    transform-origin: 10% 100%;
 }
 
 .Minutero{
     position: absolute;
-    width: 100%;
-    height: 2px;
+    width: 2px;
+    height: 50%;
+    top: 0%;
+    left: 50%;
     background:gray;
+    transform-origin: 10% 100%;
 }
 
 .Horario{
     position: absolute;
-    width: 100%;
-    height: 2px;
+    width: 2px;
+    height: 50%;
+    top: 0%;
+    left: 50%;
     background:black;
+    transform-origin: 10% 100%;
+}
+
+
+
+.Sopa{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background: burlywood;
+    border-radius: 50%;
+    border: 3px solid black;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+}
+
+.Mosca{
+    width: 100px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    grid-column: 4 ;
+    grid-row: 3;
+}
+.item1{
+    width: 80px;
+    height: 80px;
+    background: green;
+    border-radius: 50%;
+    grid-column: 2 ;
+    grid-row: 2;
+}
+.item2{
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+    grid-column: 2 ;
+    grid-row: 4;
+}
+.item2{
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+    grid-column: 2;
+    grid-row: 4;
+}
+.item3{
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    border-radius: 50%;
+    grid-column: 3;
+    grid-row: 4;
+}
+.item4{
+    width: 100px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    grid-column: 4;
+    grid-row: 4;
+    align-self: end;
+}
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
 }
